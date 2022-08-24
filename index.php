@@ -54,7 +54,7 @@
             
         ];
     ?>
-    <header class="d-block">
+    <header>
         <div class="d-flex justify-content-between align-items-center p-2">
             <div>
             <img src="./assets/logo-google-privacy.png" alt="logo-google">
