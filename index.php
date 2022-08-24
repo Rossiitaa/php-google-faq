@@ -55,7 +55,7 @@
         ];
     ?>
     <header>
-        <div class="d-flex justify-content-between p-3">
+        <div class="d-flex justify-content-between align-items-center p-2">
             <div>
             <img src="./assets/logo-google-privacy.png" alt="logo-google">
             </div>
@@ -66,16 +66,16 @@
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Norme sulla privacy</a></li>
-                <li><a href="#">Termini di servizio</a></li>
-                <li><a href="#">Tecnologie</a></li>
-                <li><a href="#">Domande frequenti</a></li>
+            <ul class="mb-1 ps-3">
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li>Domande frequenti</li>
             </ul>
         </nav>
     </header>
-        <hr>
+        <hr class="m-0">
     <main>
         <div class="container">
             <div class="row">

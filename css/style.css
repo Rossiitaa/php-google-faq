@@ -1,0 +1,14 @@
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #646368;
+    margin-right: 2.5rem;
+    font-weight: 500;
+}
+
+header i {
+    font-size: 1.5rem;
+}
