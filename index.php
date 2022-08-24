@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Google FAQ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <?php 
@@ -52,6 +54,28 @@
             
         ];
     ?>
+    <header>
+        <div class="d-flex justify-content-between p-3">
+            <div>
+            <img src="./assets/logo-google-privacy.png" alt="logo-google">
+            </div>
+            <div>
+                <i class="fa-solid fa-bars mx-4"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#">Domande frequenti</a></li>
+            </ul>
+        </nav>
+    </header>
+        <hr>
     <main>
         <div class="container">
             <div class="row">
