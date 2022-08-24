@@ -54,7 +54,7 @@
             
         ];
     ?>
-    <header>
+    <header class="d-block">
         <div class="d-flex justify-content-between align-items-center p-2">
             <div>
             <img src="./assets/logo-google-privacy.png" alt="logo-google">
@@ -74,8 +74,8 @@
                 <li>Domande frequenti</li>
             </ul>
         </nav>
-    </header>
         <hr class="m-0">
+    </header>
     <main>
         <div class="container">
             <div class="row">
