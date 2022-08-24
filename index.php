@@ -53,6 +53,9 @@
             ],
             
         ];
+        $languages = [
+            "Italiano", "Deutsch", "English", "English (United Kingdom)", "Español", "Français"
+        ];
     ?>
     <header>
         <div class="d-flex justify-content-between align-items-center p-2">
@@ -67,11 +70,11 @@
 
         <nav>
             <ul class="mb-1 ps-3">
-                <li>Introduzione</li>
-                <li>Norme sulla privacy</li>
-                <li>Termini di servizio</li>
-                <li>Tecnologie</li>
-                <li>Domande frequenti</li>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#">Domande frequenti</a></li>
             </ul>
         </nav>
         <hr class="m-0">
@@ -92,5 +95,20 @@
             </div>
         </div>
     </main>
+    <footer class="p-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <ul class="m-0">
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Tutto su Google</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Termini</a></li>
+            </ul>
+            <select>
+                <?php foreach($languages as $item => $language) { ?>
+                    <option value="<?php echo $language; ?>"><?php echo $language; ?></option>
+                <?php } ?>
+            </select>
+        </div>
+    </footer>
 </body>
 </html>
